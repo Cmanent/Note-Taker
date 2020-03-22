@@ -40,3 +40,22 @@ POST /api/notes - Should receive a new note to save on the request body, add it 
 
 
 DELETE /api/notes/:id - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique id when it's saved. In order to delete a note, you'll need to read all notes from the db.json file, remove the note with the given id property, and then rewrite the notes to the db.json file.
+
+
+## ScreenShots
+
+MAIN PAGE
+![Screenshot (43)](https://user-images.githubusercontent.com/57699329/77261869-5b6c4c00-6c57-11ea-8891-a5bee2ec4803.png)
+
+I ALREADY HAD A COUPLE OF NOTES SAVED FROM PREVIOUS WORK DONE
+![Screenshot (44)](https://user-images.githubusercontent.com/57699329/77261872-5c04e280-6c57-11ea-861e-56df0077eb3f.png)
+
+I ADDED ANOTHER NOTE
+![Screenshot (42)](https://user-images.githubusercontent.com/57699329/77261873-5c9d7900-6c57-11ea-8e70-4a7bd2e77671.png)
+
+I DELETED BOTH THE NEW AND THE OLD NOTE
+![Screenshot (45)](https://user-images.githubusercontent.com/57699329/77261877-5f986980-6c57-11ea-80b3-83ab9c2e1734.png)
+
+
+
+
